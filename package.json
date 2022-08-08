@@ -9,6 +9,10 @@
     "eslint": "eslint --ext .js",
     "pretest": "npm run eslint"
   },
+  "preferGlobal": true,
+  "bin": {
+    "prime-numbers": "./src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mairelis-montilla/prime-numbers.git"
