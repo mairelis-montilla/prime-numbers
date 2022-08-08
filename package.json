@@ -9,6 +9,10 @@
     "eslint": "eslint --ext .js",
     "pretest": "npm run eslint"
   },
+  "preferGlobal": true,
+  "bin": {
+    "prime-numbers": "./src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mairelis-montilla/prime-numbers.git"
@@ -23,5 +27,8 @@
     "eslint": "^8.21.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "commander": "^9.4.0"
   }
 }
